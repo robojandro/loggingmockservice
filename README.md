@@ -8,9 +8,10 @@ go run main.go
 ```
 
 Example of the output:
+
 ![Simulated loggin as a service](example_output.png "example of output")
 
-The ratios of how many lines are logged at specific levels can be customized using the following *optional* arguments:
+The ratios of how many lines logged at specific levels can be customized using the following *optional* arguments:
 
 ```
  -fatal_ratio  integer
@@ -21,9 +22,9 @@ The ratios of how many lines are logged at specific levels can be customized usi
  -trace_ratio    "
 ```
 
-where the arguments to those are integers representing the ratio out of 100 percent that you want the given option.
+where those integers represent the ratio out of 100 percent that you want of a given level.
 
-By default, no Fatal or Trace level messages are logged and the distribution should approximate:
+By default, *NO* Fatal or Trace level messages are logged and the distribution should approximate:
 
 ```
 Error 10%
@@ -32,7 +33,7 @@ Info  50%
 Debug 20%
 ```
 
-The outputs will not match that exactly as the output involves random generation so there will be some deviation.
+The outputs will not match that exactly as the output involves randomization, so there will be some deviation.
 
 Additional arguments to tailor the output are:
 
