@@ -69,8 +69,18 @@ Apply the pod yaml through kubectl to get the logging service running:
 kubectl apply -f pod.yaml
 ```
 
+### See also:
+
+Early proof-of-concept for tool that can stream and parse 
+- https://github.com/robojandro/whaletail
+
+Library used to generate the actual log output
+- https://github.com/robojandro/loggenerator 
+
+
 ### Related:
 - Kubernetes
 - Minikube
 - Docker
 - Stern
+
